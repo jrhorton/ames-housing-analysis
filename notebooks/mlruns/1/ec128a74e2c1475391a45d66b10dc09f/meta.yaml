@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/jhorton2/source/repos/ames-housing-analysis/notebooks/mlruns/1/ec128a74e2c1475391a45d66b10dc09f/artifacts
+end_time: 1642698591527
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: ec128a74e2c1475391a45d66b10dc09f
+run_uuid: ec128a74e2c1475391a45d66b10dc09f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1642698205524
+status: 3
+tags: []
+user_id: jhorton2

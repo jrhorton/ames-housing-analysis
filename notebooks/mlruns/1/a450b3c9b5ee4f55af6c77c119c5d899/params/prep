@@ -1,0 +1,4 @@
+ColumnTransformer(transformers=[('standard_scaler', StandardScaler(),
+                                 Index(['Lot_Frontage', 'Lot_Area', 'Year_Built', 'Year_Remod_Add',
+       'Mas_Vnr_Area', 'BsmtFin_SF_1', 'BsmtFin_SF_2', 'Bsmt_Unf_SF',
+       ...

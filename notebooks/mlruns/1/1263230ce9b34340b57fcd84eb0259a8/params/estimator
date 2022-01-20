@@ -1,0 +1,4 @@
+Pipeline(steps=[('prep',
+                 ColumnTransformer(transformers=[('standard_scaler',
+                                                  StandardScaler(),
+                                                  Index(['Lot_Frontage', 'Lot_Area', ...

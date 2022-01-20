@@ -1,0 +1,56 @@
+artifact_path: model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.8.5
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.0.2
+model_uuid: d29a6fff82334142844b4f87843a35ea
+run_id: 1263230ce9b34340b57fcd84eb0259a8
+signature:
+  inputs: '[{"name": "MS_SubClass", "type": "string"}, {"name": "MS_Zoning", "type":
+    "string"}, {"name": "Lot_Frontage", "type": "long"}, {"name": "Lot_Area", "type":
+    "long"}, {"name": "Street", "type": "string"}, {"name": "Alley", "type": "string"},
+    {"name": "Lot_Shape", "type": "string"}, {"name": "Land_Contour", "type": "string"},
+    {"name": "Utilities", "type": "string"}, {"name": "Lot_Config", "type": "string"},
+    {"name": "Land_Slope", "type": "string"}, {"name": "Neighborhood", "type": "string"},
+    {"name": "Condition_1", "type": "string"}, {"name": "Condition_2", "type": "string"},
+    {"name": "Bldg_Type", "type": "string"}, {"name": "House_Style", "type": "string"},
+    {"name": "Overall_Qual", "type": "string"}, {"name": "Overall_Cond", "type": "string"},
+    {"name": "Year_Built", "type": "long"}, {"name": "Year_Remod_Add", "type": "long"},
+    {"name": "Roof_Style", "type": "string"}, {"name": "Roof_Matl", "type": "string"},
+    {"name": "Exterior_1st", "type": "string"}, {"name": "Exterior_2nd", "type": "string"},
+    {"name": "Mas_Vnr_Type", "type": "string"}, {"name": "Mas_Vnr_Area", "type": "long"},
+    {"name": "Exter_Qual", "type": "string"}, {"name": "Exter_Cond", "type": "string"},
+    {"name": "Foundation", "type": "string"}, {"name": "Bsmt_Qual", "type": "string"},
+    {"name": "Bsmt_Cond", "type": "string"}, {"name": "Bsmt_Exposure", "type": "string"},
+    {"name": "BsmtFin_Type_1", "type": "string"}, {"name": "BsmtFin_SF_1", "type":
+    "long"}, {"name": "BsmtFin_Type_2", "type": "string"}, {"name": "BsmtFin_SF_2",
+    "type": "long"}, {"name": "Bsmt_Unf_SF", "type": "long"}, {"name": "Total_Bsmt_SF",
+    "type": "long"}, {"name": "Heating", "type": "string"}, {"name": "Heating_QC",
+    "type": "string"}, {"name": "Central_Air", "type": "string"}, {"name": "Electrical",
+    "type": "string"}, {"name": "First_Flr_SF", "type": "long"}, {"name": "Second_Flr_SF",
+    "type": "long"}, {"name": "Low_Qual_Fin_SF", "type": "long"}, {"name": "Gr_Liv_Area",
+    "type": "long"}, {"name": "Bsmt_Full_Bath", "type": "long"}, {"name": "Bsmt_Half_Bath",
+    "type": "long"}, {"name": "Full_Bath", "type": "long"}, {"name": "Half_Bath",
+    "type": "long"}, {"name": "Bedroom_AbvGr", "type": "long"}, {"name": "Kitchen_AbvGr",
+    "type": "long"}, {"name": "Kitchen_Qual", "type": "string"}, {"name": "TotRms_AbvGrd",
+    "type": "long"}, {"name": "Functional", "type": "string"}, {"name": "Fireplaces",
+    "type": "long"}, {"name": "Fireplace_Qu", "type": "string"}, {"name": "Garage_Type",
+    "type": "string"}, {"name": "Garage_Finish", "type": "string"}, {"name": "Garage_Cars",
+    "type": "long"}, {"name": "Garage_Area", "type": "long"}, {"name": "Garage_Qual",
+    "type": "string"}, {"name": "Garage_Cond", "type": "string"}, {"name": "Paved_Drive",
+    "type": "string"}, {"name": "Wood_Deck_SF", "type": "long"}, {"name": "Open_Porch_SF",
+    "type": "long"}, {"name": "Enclosed_Porch", "type": "long"}, {"name": "Three_season_porch",
+    "type": "long"}, {"name": "Screen_Porch", "type": "long"}, {"name": "Pool_Area",
+    "type": "long"}, {"name": "Pool_QC", "type": "string"}, {"name": "Fence", "type":
+    "string"}, {"name": "Misc_Feature", "type": "string"}, {"name": "Misc_Val", "type":
+    "long"}, {"name": "Mo_Sold", "type": "long"}, {"name": "Year_Sold", "type": "long"},
+    {"name": "Sale_Type", "type": "string"}, {"name": "Sale_Condition", "type": "string"},
+    {"name": "Longitude", "type": "double"}, {"name": "Latitude", "type": "double"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+utc_time_created: '2022-01-20 17:09:41.951330'
